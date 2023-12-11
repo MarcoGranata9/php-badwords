@@ -6,10 +6,16 @@
     <title>Bad words</title>
 </head>
 <body>
-    <form action="">
+    <form action="result.php" method="GET">
+
+        <label for="text">Inserisci del testo</label>
         <textarea name="text" id="text" cols="30" rows="10"></textarea>
-        <input type="text">
+
+        <label for="word">Parola da censurare</label>
+        <input type="text" id="word" name="word">  
+
         <button type="submit">Invia</button>
+
     </form>
 </body>
 </html>
